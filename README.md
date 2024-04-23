@@ -1,1 +1,7 @@
-# IOT
+# Cloud-based Temperature & Humidity Monitoring System with ESP32 and ThingsBoard
+
+This project focuses on building a robust and efficient temperature and humidity monitoring system utilizing the ESP32 microcontroller and the ThingsBoard IoT platform. The ESP32 will be connected to a specific Wi-Fi network and will continuously collect data from a DHT22 sensor. The collected data will then be transmitted to the ThingsBoard server via MQTT protocol, ensuring secure and reliable communication. To authenticate with the ThingsBoard server, an access token will be utilized, ensuring seamless integration and data transmission.
+
+The system architecture revolves around a constant execution loop, ensuring the ESP32 device remains connected to the Wi-Fi network, collects sensor data, and transmits it to the ThingsBoard server without interruptions. This loop guarantees real-time monitoring capabilities, enabling users to access accurate temperature and humidity readings remotely. Moreover, the utilization of the Wokwi platform for ESP32 emulation provides developers with a convenient environment for testing and prototyping, facilitating the development process and ensuring compatibility across different hardware configurations.
+
+With its cloud-based approach, this project offers scalability and flexibility, allowing users to monitor and manage multiple sensor nodes simultaneously through the ThingsBoard dashboard. Whether for environmental monitoring, industrial applications, or home automation projects, this Cloud-based Temperature & Humidity Monitoring System provides a reliable solution for gathering and analyzing sensor data in real-time, empowering users to make informed decisions and optimize their operations effectively.
